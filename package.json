@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.2",
+    "@changesets/cli": "^2.29.5",
     "@cloudflare/workers-types": "^4.20240909.0"
   },
   "name": "workers-rs",
@@ -18,9 +18,9 @@
     "@types/uuid": "^9.0.2",
     "miniflare": "^3.20241230.0",
     "typescript": "^5.1.6",
-    "undici": "^5.28.4",
+    "undici": "^5.29.0",
     "uuid": "^9.0.0",
-    "vitest": "^2.1.8"
+    "vitest": "^3.2.4"
   },
   "scripts": {
     "test": "cd worker-sandbox && NO_MINIFY=1 worker-build --dev && NODE_OPTIONS=--experimental-vm-modules npx vitest run",
